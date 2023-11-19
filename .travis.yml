@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+- 18.3.0
+
+cache: npm
+
+install:
+- npm install
+
+script:
+- npm test
